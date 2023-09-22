@@ -1,16 +1,14 @@
 <template>
-  <div>
-    <Modal />
-  </div>
+  <UserRepositories :user="Will"></UserRepositories>
 </template>
 
 <script>
-import Modal from "./components/Modal.vue";
+import UserRepositories from "./components/UserRepositories";
 
 export default {
   name: "App",
   components: {
-    Modal,
+    UserRepositories,
   },
 };
 </script>
