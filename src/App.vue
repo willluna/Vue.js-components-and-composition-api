@@ -1,14 +1,14 @@
 <template>
-  <Home></Home>
+  <HomeVue></HomeVue>
 </template>
 
 <script>
-import Home from "./components/Home.vue";
+import HomeVue from "./components/HomeVue.vue";
 
 export default {
   name: "App",
   components: {
-    Home,
+    HomeVue,
   },
 };
 </script>
