@@ -1,5 +1,5 @@
 <template>
-  <HomeVue></HomeVue>
+  <HomeVue name="Will" last-name="Luna"></HomeVue>
 </template>
 
 <script>
